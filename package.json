@@ -4,7 +4,8 @@
   "description": "Random user generator REST API in node.js",
   "main": "programmeren4/les1.1/MyRandomUser/MyRandomUser.js",
   "scripts": {
-    "start": "node .programmeren4/les1.1/MyRandomUser/MyRandomUser.js"
+    "start": "node .programmeren4/les1.1/MyRandomUser/MyRandomUser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mikey Gomper",
   "license": "ISC",
