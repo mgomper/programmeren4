@@ -1,0 +1,14 @@
+{
+  "name": "myrandomuser",
+  "version": "1.0.0",
+  "description": "Random user generator REST API in node.js",
+  "main": "MyRandomUser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikey Gomper",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
