@@ -1,0 +1,14 @@
+{
+  "name": "myrandomuser",
+  "version": "1.0.0",
+  "description": "Random user generator REST API in node.js",
+  "main": "programmeren4/les1.1/MyRandomUser/MyRandomUser.js",
+  "scripts": {
+    "start": "node programmeren4/les1.1/MyRandomUser/MyRandomUser.js"
+  },
+  "author": "Mikey Gomper",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
