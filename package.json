@@ -4,7 +4,7 @@
   "description": "Random user generator REST API in node.js",
   "main": "programmeren4/les1.1/MyRandomUser/MyRandomUser.js",
   "scripts": {
-    "start": "node programmeren4/les1.1/MyRandomUser/MyRandomUser.js"
+    "start": "node .programmeren4/les1.1/MyRandomUser/MyRandomUser.js"
   },
   "author": "Mikey Gomper",
   "license": "ISC",
