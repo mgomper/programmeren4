@@ -2,11 +2,22 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-router.get('*', function(request, response) {
+
+
+router.get('/', function(request, response) {
  response.status(200);
  response.json({
- "description": "Recipes REST server API version 1 is no longer supported.
-Please use API version 2."
+ "description": "Dit is een server voor programmeren4 practicum2."
  });
 });
+
+
+router.get('*', function(request, response){
+  response.status(200);
+  response.json({
+    "description": "Error; Dit pad bestaat niet!"
+  });
+});
+
+
 module.exports = router;
