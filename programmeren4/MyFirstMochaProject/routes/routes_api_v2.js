@@ -2,9 +2,11 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
+var recipes = require('./recipes.js');
+var varrecipes = recipes;
 
 
-router.get('/', function(request, response) {
+router.get('/info', function(request, response) {
  response.status(200);
  response.json({
  "description": "Dit is een server voor programmeren4 practicum2."
@@ -12,8 +14,16 @@ router.get('/', function(request, response) {
 });
 
 
-router.get('*', function(request, response){
+
+router.get('/recipes', function(request, response){
   response.status(200);
+  response.json(varrecipes);
+});
+
+
+
+router.get('*', function(request, response){
+  response.status(404);
   response.json({
     "description": "Error; Dit pad bestaat niet!"
   });
